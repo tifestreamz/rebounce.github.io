@@ -1,0 +1,150 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    font-family: sans-serif;
+}
+#nav-bar{
+/*    position: sticky;*/
+    top: 0px;
+    z-index: 10px;
+}
+
+
+.navbar{ /*linear gradient*/
+/*    background-image: linear-gradient(to right, #a517ba, #5f1782);*/
+    background-color: #fff !important;
+    padding: 20px !important;
+}
+
+.navbar-brand img{
+    height: 40px;
+    padding-left: 20px;
+    color: #fff;
+     font-weight: bold;
+}
+
+.navbar-nav li{
+    padding: 0 10px;
+    font-weight: bold;
+  
+}
+
+.navbar-nav li a{
+    color: #E29B04 !important;
+    font-weight: 600px;
+    float: right;
+    text-align: left;
+    padding-right: 10px;
+}
+
+.navbar-toggler{
+    color: #fff;
+}
+
+/*----Banner section starts here-----*/
+
+#banner{
+    padding-top: 2%;
+    background-color: #fff;
+    z-index: -10px;
+/*    background-image: url(images/online-shop.jpg);*/
+/*    background-size: cover;*/
+    
+}
+
+.promo-title{
+    font-size: 40px;
+    font-weight: 600px;
+    margin-top: 100px;
+    margin-bottom: 20px;
+    color: #E29B04;
+}
+
+.btn-sign-up{
+    padding: 10px;
+    background-color:#E29B04;
+    color: #fff;
+    border: 0px;    
+}
+
+/*affiliate Grid section*/
+
+#affiliate-grid{
+    margin: 100px 0px;
+    padding: 30px 30px;
+    background-color:seashell;
+}
+
+.card-button{
+    padding: 5px 10px 5px 10px;
+    background-color:#6B4DAE;
+    color: #fff;
+    border: 0px;
+    font-family: sans-serif"varela round";
+    border-radius: 50px;
+}
+
+#Section-heading{
+    text-align: center;
+    border-bottom: 5px;
+    border-bottom-color: #E29B04;
+    border-bottom-style: solid;
+    border-bottom-width:medium;
+    height: 40px;
+}
+/*How it works*/
+img.img-center{
+    align-content: center; 
+}
+
+/*Popular affiliate partners*/
+
+.card-title{
+    font-size: 16px;
+    text-align: left;
+    font-family: sans-serif"varela round";
+}
+
+.card-text{
+    font-size: 12px;
+    color: dimgrey;
+    font-family: sans-serif"varela round";
+}
+
+#affiliate-card{
+    margin-bottom: 30px;
+/*    box-shadow: rgba(0,0,0,0,0.5)*/
+}
+
+/*Sbscription section*/
+
+#subscribe{
+    background-color: #E29B04;
+    padding: 20px;
+}
+
+#subscription_card{
+    margin: 50px 100px 100px 100px;
+    background-color: inherit;
+}
+
+.form-row{
+    align-items: center;
+}
+
+/*footer section*/
+
+#footer{
+    margin: 20px 0px 0px 0px;
+    background-color: blueviolet;
+}
+
+#social-media{
+    background-color: white;
+    color: darkviolet;
+}
+
+
